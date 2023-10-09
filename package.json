@@ -11,13 +11,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "less": "^4.2.0",
-    "postcss-px-to-viewport": "^1.1.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@types/node": "^20.6.0",
     "@vitejs/plugin-vue": "^4.2.3",
+    "less": "^4.2.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "senyou-comp-demo": "^0.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-dts": "^3.5.3",

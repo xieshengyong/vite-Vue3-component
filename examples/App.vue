@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import { elButton } from "../dist/comp-demo.es";
+// import { elButton } from "../dist/senyou-comp-demo";
+import { elButton } from "senyou-comp-demo";
 
 onMounted(() => {
   console.log("tButton :>> ", elButton);

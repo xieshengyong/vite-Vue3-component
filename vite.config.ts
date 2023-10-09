@@ -25,9 +25,9 @@ export default defineConfig({
     // outDir: "card-animation-comp", // 输出文件名称
     lib: {
       entry: path.resolve(__dirname, "packages/index.ts"), // 指定组件编译入口文件
-      name: "comp-demo",
-      fileName: (format) => `comp-demo.${format}.js`,
-      // formats: ["es"],
+      name: "senyou-comp-demo",
+      fileName: "senyou-comp-demo",
+      formats: ["es"],
     }, // 库编译模式配置
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
